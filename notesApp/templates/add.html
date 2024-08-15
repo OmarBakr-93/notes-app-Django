@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add page</title>
+</head>
+<body>
+        <h1>add note</h1>
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form }}
+            <button class="btn btn-primary" type="submit">add note</button>
+
+        </form> 
+</body>
+</html>
